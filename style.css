@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(2, 0, 37);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(15, 16, 56);
+
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 30px;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    color: aqua;
+    font-size: 1.1rem;
+
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.first {
+    justify-content: space-around;
+    display: flex;
+
+    margin: 90px;
+
+
+}
+
+
+.leftsection {
+    font-size: 2.5rem;
+
+}
+
+.name {
+    color: #6a5acd;
+}
+
+
+
+.rightsection img {
+    max-width: 500px;
+    margin-left: 20%;
+
+}
+
+#element {
+    color: slateblue;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    flex: 1;
+    text-align: right;
+    margin-right: 20px;
+    max-width: 300px;
+}
+
+.right {
+    flex: 2;
+}
+
+.profile-pic {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    color: slateblue;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.cont {
+    background-color: rgb(2, 0, 37);
+    padding: 50px 0;
+}
+
+.cont .conta {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cont h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.cont form {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.cont form label {
+    font-size: 18px;
+}
+
+.cont form input,
+.cont form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cont form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.cont form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.buttons {
+   
+    margin-top: 10%;
+    font-size: 20px;
+
+}
+.buttons .btn
+{
+    padding: 09px;
+    background-color:rgb(55 56 126) ;
+    color: white;
+    border: 2px  solid white ;
+    cursor: pointer;
+    border-radius: 80px ;
+
+}
