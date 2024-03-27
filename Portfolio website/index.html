@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kowshik Sai </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Kowshik's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="">Experience</a></li>
+                    <li><a href="#cont">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi, I am <span class="name">Kowshik</span>
+                <div>I am a </div>
+                <span id="element"></span>
+
+                <div class="buttons">
+                    <button class="btn" onclick="downloadResume()">Download Resume</button>
+                    <button class="btn" onclick="openLinkedIn()">LinkedIn Profile</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="pngegg.png" alt style="" ;>
+
+            </div>
+
+
+
+
+
+
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="left">
+                    <img src="profile-pic.png" class="profile-pic" alt="profile pic">
+                </div>
+                <div class="right">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello! I'm Kowshik Sai Eletem.</h3>
+                    <p>A passionate software engineer based in India. I thrive on creating innovative solutions and
+                        pushing the boundaries of technology to solve real-world problems. With a strong background in
+                        computer science from KL University, where I earned my Bachelor's in Computer Science Engineer.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="cont" class="cont">
+            <div class="conta">
+                <h1>Contact Me</h1>
+                <form action="#" method="post">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Graphic Designer', 'Web Developer', 'Software Engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
