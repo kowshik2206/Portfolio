@@ -1,5 +1,5 @@
 function downloadResume() {
-    window.location.href = 'Kowshik_resume.pdf'; // Replace with the actual path to your resume file
+    window.location.href = 'kowshik_resume.pdf'; // Replace with the actual path to your resume file
 }
 
 function openLinkedIn() {
